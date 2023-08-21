@@ -13,3 +13,5 @@ drwxr-xr-x 5 root root  4096 Aug 21 06:40 roles
 $ cd /etc/ansible/
 
 Add the elasticsearch server IP in the variable of roles/elasticsearch/defaults/main.yml, roles/filebeat/defaults/main.yml, roles/kibana/defaults/main.yml
+Then run
+$ ansible-playbook elk.yml
