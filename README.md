@@ -1,4 +1,9 @@
 # ELK-INSTALLATION-UBUNTU20.04
+
+$ sudo apt-get install ansible
+$ git clone https://github.com/jaga-devops/ELK-INSTALLATION-UBUNTU20.04.git
+
+
 $ cd ELK-INSTALLATION-UBUNTU20.04/
 $ ls
 ansible.cfg  elk.yml  hosts  roles
@@ -15,3 +20,4 @@ $ cd /etc/ansible/
 Add the elasticsearch server IP in the variable of roles/elasticsearch/defaults/main.yml, roles/filebeat/defaults/main.yml, roles/kibana/defaults/main.yml
 Then run
 $ ansible-playbook elk.yml
+
