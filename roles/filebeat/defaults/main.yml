@@ -1,0 +1,10 @@
+---
+# defaults file for elasticsearch
+JDK_version: default-jdk
+public_signing_key: https://artifacts.elastic.co/GPG-KEY-elasticsearch
+packages: apt-transport-https
+elasticsearch_repo: deb https://artifacts.elastic.co/packages/7.x/apt stable main
+filestream_type: log
+#input_configuration: 
+log_path: /var/log/nginx/*.log
+elasticsearch_privateIP: 172.31.11.178

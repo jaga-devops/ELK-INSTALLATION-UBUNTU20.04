@@ -1,0 +1,7 @@
+---
+# defaults file for elasticsearch
+JDK_version: default-jdk
+public_signing_key: https://artifacts.elastic.co/GPG-KEY-elasticsearch
+packages: apt-transport-https
+kibana_repo: deb https://artifacts.elastic.co/packages/7.x/apt stable main
+elasticsearch_server_privateIP: 172.31.11.178
